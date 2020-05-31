@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    gcp:
+      sql:
+        instance-connection-name: spherical-being-278819:us-central1:stricte-integration
+        database-name: people
+
+  datasource:
+    username: ${DATASOURCE_USERNAME}
+    password: ${DATASOURCE_PASSWORD}
+    hikari:
+      maximum-pool-size: 5
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false

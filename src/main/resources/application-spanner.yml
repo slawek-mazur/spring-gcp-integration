@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    gcp:
+      spanner:
+        instance-id: stricte-integration
+        database: people
